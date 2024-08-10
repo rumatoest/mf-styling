@@ -1,0 +1,109 @@
+/**
+* Universal text layout for CSS-fix
+*/
+body {
+    font: 0.9em/1.5 serif;
+}
+
+/* LINKS */
+a, a.link {
+    color: blue;
+}
+
+a:hover {
+    text-decoration:
+        none;
+}
+
+a:active, a.active {
+    color: red;
+}
+
+a:visited, a.visited {
+    color: navy;
+}
+
+/** TEXT **/
+hr {
+    background-color: black;
+    border: none;
+    color: black;
+
+
+    margin: 1em 0;
+}
+
+h1.page-title {
+    font-size: 1.9em;
+    margin: 0;
+}
+
+h1 {
+    margin: 1em 0 0.3em 0;
+    font-size: 1.5em;
+}
+
+h1 sup {
+    color: #666;
+    display: block;
+    font-size: 0.5em;
+    font-weight: normal;
+    margin: 0 0 -0.25em 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: 0.8em 0 0.3em 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 0.8em 0 0.2em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 0.6em 0 0.2em 0;
+}
+
+h5 {
+    font-size: 0.8em;
+    margin: 0.6em 0 0.2em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    font-style: italic;
+    margin: 0.6em 0 0 0;
+}
+
+p {
+    margin: 0.8ex 0 1.5ex 0;
+}
+
+
+
+/* TABLES */
+table {
+    border-color: black;
+    border-collapse: collapse;
+}
+
+/* ADDITIONAL FORMATTING */
+cite, q {
+    border-bottom: grey dotted 1px;
+}
+
+blockquote {
+    border-left: black solid 4px;
+    margin-left: 1.5ex;
+    padding-left: 1.5ex;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 0 1.5ex 3ex;
+}

@@ -1,0 +1,43 @@
+
+/* Web safe fonts for every OS */
+/* Sans fonts */
+.sans-a {
+    font-family: Arial, 'Trebuchet MS', 'Nimbus Sans L', 'Bitstream Vera Sans', Verdana, FreeSans, sans-serif, sans;
+}
+
+.sans-v {
+    font-family: Verdana, 'Trebuchet MS', 'URW Gothic L', 'Bitstream Vera Sans', FreeSans, sans-serif, sans;
+}
+
+.sans-t {
+    font-family: 'Trebuchet MS', Tahoma, Verdana, 'Bitstream Vera Sans', sans-serif, sans;
+}
+
+.sans-g {
+    font-family: 'Century Gothic', 'URW Gothic L', Verdana, 'Bitstream Vera Sans', sans-serif, sans;
+}
+
+/* Serif fonts */
+.serif-t {
+    font-family: 'Times New Roman', 'URW Palladio L', 'UnBatang', 'Century Schoolbook L', 'URW Bookman L', Georgia, 'Palatino Linotype', FreeSerif,
+        serif;
+}
+
+.serif-g {
+    font-family: Georgia, 'Palatino Linotype', 'URW Bookman L', 'Times New     Roman', 'URW Palladio L', serif;
+}
+
+/* Monotype fonts */
+.mono {
+    font-family: 'Courier New', Courier, FreeMono, 'Nimbus Mono L', 'Andale     Mono', monospace, mono;
+}
+
+/* Cursive fonts: need more replaced fonts */
+.cursive {
+    font-family: 'Comic Sans MS', 'Nova Mono', cursive;
+}
+
+/* Fantasy fonts: testing */
+.fantasy {
+    font-family: 'Monotype Corsiva', 'URW Chancery L', 'Cookie';
+}
